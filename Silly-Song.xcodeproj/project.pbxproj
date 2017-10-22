@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					6117C7141F9C88600013AF18 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZDP8X8EHL6;
 						ProvisioningStyle = Automatic;
 					};
 					6117C7281F9C88600013AF18 = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZDP8X8EHL6;
 				INFOPLIST_FILE = "Silly-Song/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alma-Chelouche.Silly-Song";
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZDP8X8EHL6;
 				INFOPLIST_FILE = "Silly-Song/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alma-Chelouche.Silly-Song";
