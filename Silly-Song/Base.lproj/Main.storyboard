@@ -43,22 +43,22 @@
                                 <rect key="frame" x="67" y="226" width="240" height="30"/>
                                 <color key="textColor" red="1" green="0.20000000000000001" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
                                 <connections>
                                     <action selector="displayLyrics:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Jha-MI-Ldo"/>
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="yvA-vl-QWK"/>
                                 </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aQd-4t-5TR">
-                                <rect key="frame" x="67" y="281" width="240" height="128"/>
+                                <rect key="frame" x="67" y="281" width="240" height="85"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="2tt-Sp-gk4"/>
-                                    <constraint firstAttribute="height" constant="128" id="SGh-bW-GPb"/>
+                                    <constraint firstAttribute="height" constant="85" id="SGh-bW-GPb"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.88240883027570716" green="1" blue="0.9519165791532207" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -77,7 +77,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="lyricsView" destination="iQg-sw-Lzs" id="ju1-TI-XdN"/>
+                        <outlet property="lyricsView" destination="aQd-4t-5TR" id="4Rt-zu-CVD"/>
                         <outlet property="nameField" destination="iQg-sw-Lzs" id="R7o-rD-bRO"/>
                     </connections>
                 </viewController>
